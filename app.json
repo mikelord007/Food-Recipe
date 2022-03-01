@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "food-recipe",
+    "slug": "food-recipe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/tomato.png",
+    "splash": {
+      "image": "./assets/icons/rice.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/tomato.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icons/tomato.png"
+    }
+  }
+}
